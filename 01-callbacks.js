@@ -20,15 +20,11 @@
  * Відкладений виклик: геолокація
  */
 
+// window.navigator.geolocation.getCurrentPosition();
 /*
  * Відкладений виклик: інтервали
  */
 
-/*
- * Відкладений виклик: http-запит
- * - API URL: https://pokeapi.co/api/v2/pokemon
- */
-
-/*
- * Фільтр
- */
+// console.log('В коді перед таймаутом');
+// console.log('Через три секунди в середені колбека в таймауті');
+// console.log('В коді після таймаута');
