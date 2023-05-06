@@ -11,6 +11,13 @@
 /*
  * функция doMath(a, b, callback)
  */
+const fnA = function(message,callback){
+    console.log(message);
+};
+const fnB= function(){
+    console.log('Це косольлог функції fnB');
+} ;
+fnA('string',fnB);
 
 /*
  * Відкладений виклик: регістрація подій
